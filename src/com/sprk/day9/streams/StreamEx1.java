@@ -1,4 +1,4 @@
-package com.sprk.day8.streams;
+package com.sprk.day9.streams;
 
 import java.util.ArrayList;
 import java.util.Arrays;
