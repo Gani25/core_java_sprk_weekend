@@ -1,15 +1,15 @@
-package com.sprk.day9.comparable;
+package com.sprk.day9.comparator;
 
-public class Employee implements Comparable<Employee> {
-	
+public class Employee {
+
 	private int empId;
-	
+
 	private String name;
-	
+
 	private double salary;
-	
+
 	private String department;
-	
+
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
@@ -59,35 +59,5 @@ public class Employee implements Comparable<Employee> {
 		return "Employee [empId=" + empId + ", name=" + name + ", salary=" + salary + ", department=" + department
 				+ "]";
 	}
-
-//	@Override
-//	public int compareTo(Employee o) {
-//		
-//		// SOrt by salary in ASC
-//		return Double.compare(salary, o.salary);
-//	}
-	
-//	@Override
-//	public int compareTo(Employee o) {
-//		
-//		// SOrt by NAME in ASC
-//		return name.compareTo(o.name);
-//	}
-	
-//	@Override
-//	public int compareTo(Employee o) {
-//		
-//		// SOrt by empIdin ASC
-//		return Integer.compare(o.empId, empId);
-//	}
-	
-	@Override
-	public int compareTo(Employee o) {
-		
-		// SOrt by salary in ASC
-		return department.compareTo(o.department);
-	}
-	
-	
 
 }
